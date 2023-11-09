@@ -1,9 +1,100 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="en">
   <head>
-    <title>Veetin sivusto</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&bull; Veetin Verkkosivu &bull;</title>
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h3>Tervetuloa!</h3>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/images/my-avatar.png" alt="Veeti Simpanen" width="80">
+          </figure>
+          <div class="info-content">
+            <h1 class="name" title="Veeti Simpanen">Veeti Simpanen</h1>
+            <p class="title">Opiskelija - Ohjelmistokehitys</p>
+          </div>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Näytä Yhteystiedot</span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Sähköposti</p>
+                <a href="mailto:hello@veeti2304.me" class="contact-link">hello@veeti2304.me</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Sijainti</p>
+                <address>Jyväskylä, Keski-Suomi, Suomi</address>
+              </div>
+            </li>
+          </ul>
+          <div class="separator"></div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/veeti2304/" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="main-content">
+        <article class="about  active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">Tietoja minusta</h2>
+          </header>
+          <section class="about-text">
+            <p> Opiskelen tällä hetkellä Gradialla ohjelmistokehittäjäksi. Olen harrastanut vapaa-ajallani ohjelmointia jo monien vuosien ajan. Pääasiassa käytän C# kieltä erilaisten työpöytä ohjelmistojen kehitykseen oman tarpeeni mukaisesti, mutta olen myös tarjonnut palveluitani esimerkiksi kavereilleni ja tutuilleni. Jos sinulla tai tutullasi on tarvetta esimerkiksi verkkosivulle, voitte pyytää minulta apua. 🙂</p>
+          </section>
+          <section class="service">
+            <h3 class="h3 service-title">Mitä minä teen?</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Verkkokehitys</h4>
+                  <p class="service-item-text"> Minulta onnistuu verkkosivujen kehitys käyttäen mm. HTML, CSS sekä PHP kieliä. </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Sovelluskehitys</h4>
+                  <p class="service-item-text"> Toteutan työpöytäohjelmistoja tarpeiden mukaisesti C# ja Python kielillä. </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
