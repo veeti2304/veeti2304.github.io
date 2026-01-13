@@ -4,5 +4,10 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+I am a third-year software development student with skills in various programming languages such as C#, PHP, Python, and JavaScript. My proficiency varies between these languages, with some being stronger than others.<br>
+
+I am currently studying this field at the Gradia vocational school in Jyväskylä, Finland.<br>
+
+I specialize in desktop software development (.NET), graphical, console-based and sometimes even making some class libs. However, I also have some experience in web development (PHP, HTML and CSS [I have personal beef with JS]).<br>
+
+I mostly write my articles in Finnish as it is my native language, but if you have questions you can send me an email in English and I will reply back to you in English. (Some of my articles may also be in English).<br>
